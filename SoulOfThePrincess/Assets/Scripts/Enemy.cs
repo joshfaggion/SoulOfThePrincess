@@ -17,6 +17,11 @@ public class Enemy : MonoBehaviour
 
     public float speed;
 
+    void Test()
+    {
+
+    }
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
