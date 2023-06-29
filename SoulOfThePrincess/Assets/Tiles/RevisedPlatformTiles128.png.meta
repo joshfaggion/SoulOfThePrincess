@@ -1,0 +1,6361 @@
+fileFormatVersion: 2
+guid: 4f023a322269a814fb2cbb6b4d2667c0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_0
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72d3d3bcbe13e245b2ec7723191c0ba
+      internalID: -1045407406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cb2c1129402414db4a4be22989b7b6
+      internalID: -1714330737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_2
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a60c961408c8a441ad533fb65fd4069
+      internalID: 135887514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_3
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7408b0f703704f488cd68afee9008be
+      internalID: 163252431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_4
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc892617a41577444a7d52ff918ddc87
+      internalID: 926624926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_5
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c57d9f431f785b47ad9ca065ead86c9
+      internalID: -750023288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_6
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e43acce353851f4f89ccbf76e96145a
+      internalID: 2066520691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_7
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad584e25eaa87754e8a46c8e6127d499
+      internalID: -439791860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_8
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1883
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc7b3868eb737040ba1921336a79456
+      internalID: 38833107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcc24582389afe448c018f27d6ff04a
+      internalID: 1444948857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3e6671925b1fea48a93fd158253f5a7
+      internalID: 1495187390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2813845eae52bde4c84ee91d49c8a198
+      internalID: -1389370984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdb6f6822290f240938395fe6f6b830
+      internalID: 387147898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94f42585abb1f64cb631a521d72af94
+      internalID: 1027521921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a368d5e22d377274592b8fb67f56898c
+      internalID: 105679046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03e68fc789cb224cab55f22fffd4cb0
+      internalID: -1115467125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_16
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6033d3d026c78f44482af26aed766cee
+      internalID: 1937449094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_17
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1295d4935a9c13741b8ce398aab877a3
+      internalID: -445436241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_18
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eab7f7c1fc65d6468005c09743f1d24
+      internalID: 1262291437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_19
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6ba1e6ba2609442b89da17ef2dde49
+      internalID: -174135962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_20
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766b0e7a8ae18d044813d01f21639d8e
+      internalID: 325197765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_21
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6bbe1d41d866e4fa57192affa2b7d1
+      internalID: -1591296539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_22
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054ea18ca241d084399ae7a211a51199
+      internalID: 89665660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_23
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1755
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48816a99e97e115438abcb9453f05ff5
+      internalID: -1098625896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1d7c0e32ad9794f9d30036d1d03667
+      internalID: -1824140927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b9ae9ad9c7c3b4395363904da4e12d
+      internalID: 443560980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7796b21ac1a32b84183818a552044a54
+      internalID: -620132985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3cff077d88ca147ba99c54b6a0a5f0
+      internalID: -523380249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1e4e4f24b4639449c67c432fda3d9b
+      internalID: -1518032766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d485dbf650e8d94abf4f504b41f3d77
+      internalID: 1490197260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa59414c352249e47bf8adc61de66e7e
+      internalID: 1482476874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983b89376648eba4fa5bafb25ade2437
+      internalID: 1642877533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_32
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6fb467edfdde14d91ab9ab9675665c
+      internalID: -239819728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_33
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380c4c1606e251942b28f9506698c695
+      internalID: -1578998157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_34
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6821b35243bd2a94a9fcd080143834ff
+      internalID: -1180120247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_35
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201158631dd0154fbf4bc042ed72ebb
+      internalID: 614797535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce2c0ca795adb84db19994800d6cb70
+      internalID: 589564103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c552642937f09cd4999829d6b4cdc91c
+      internalID: 1683373705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_38
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b0fb8ff498ae1458de7a8b630c0fdb
+      internalID: 1426435507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_39
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d599829f5c9f20c47882654e7e56ca8c
+      internalID: 269824936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_40
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96be0fde49db92c4ead7080de6421855
+      internalID: 208860905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_41
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c774da97bd5f54f9e4987a9aa93026
+      internalID: 1622189611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_42
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb94ea0cd8efa142a3403125d3feba6
+      internalID: 477049957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_43
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1060aa2337a1c4e84997aa74559e91
+      internalID: 1120032795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_44
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1627
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73028c42213d4bc4c85609b2eaec6c3a
+      internalID: -1011416101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_45
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1970dbb60211b0e46828b7f6ef168163
+      internalID: 958955565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_46
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde478b233b45414396733d5e215af14
+      internalID: -1737634567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_47
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49da8c21dc682c24384f633933e4fab6
+      internalID: -1210774259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_48
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa81e4585745223418e3cab0c216dd9c
+      internalID: 1618710719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_49
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0e6b77eff37fe45b6c74d5bc320503
+      internalID: 1454730191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_50
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4276d05c9d1126b4ba29cc9a12aa14d7
+      internalID: -1828023109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_51
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c6d71724f2c024d9d790d92f38f918
+      internalID: -1070419596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_52
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71271752d144fad4dbd5003309c5e837
+      internalID: -40842825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_53
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28e43e026ec7f534bbd36465f8ac1418
+      internalID: -321119356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_54
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e35ab0c3cbc845448f0b0766db2063b
+      internalID: -656625989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_55
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e471dca82cdf1c4d99e8b342734bcb7
+      internalID: -850807034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_56
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a675be5482afee40bd0e87a7776741a
+      internalID: 712635178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_57
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d8d37b68e67b24448405e59315d2090
+      internalID: -883487519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_58
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc953522bfae1a44787a92fbf9563939
+      internalID: 1517415052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_59
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1499
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc68cf9f9910aa47a6a734f0360e6dd
+      internalID: 1473604847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_60
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d95ee0cdbe44f4eb692480bd1d4d62
+      internalID: 1332748739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_61
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27d214e27801e0438fcf2f552b4d0b2
+      internalID: -66404910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_62
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784314d6e8b0a6841afb94d9cbfa286a
+      internalID: -1232660340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_63
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55be302c1c3f01d47b5b9cbadc9ef4a2
+      internalID: 1858700918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_64
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e86608499f17874fbb52af8a0e1414e
+      internalID: -1205642386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_65
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd90bc6d5b7395440935787a4ba009a7
+      internalID: 519699474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_66
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0ba4d67857f93498aecefe5ae0f3d2
+      internalID: -235650643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_67
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7d0a53a66bcb741b365eb6e94d255d
+      internalID: -1560188033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_68
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307901218d7abca48801f71bcb1d6b25
+      internalID: -1544447229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_69
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689adb6270d109b47b6b44320d39cd2f
+      internalID: -1822918966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_70
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a61f3ffd7759d4fa7be1d51f038bd2
+      internalID: 1101580916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_71
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ceaaddcf1ccd4438e4ad003e082f11
+      internalID: 1884675315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_72
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd1c7b7f1526f641bd188bff4a36510
+      internalID: -369109085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_73
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abe8269e497d334c92b45d3466a5615
+      internalID: 1415539117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_74
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97bc33084540a1841b847f8a6c0f1a24
+      internalID: 1888217434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_75
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8ef4ef1c403df408b88a5e695e8003
+      internalID: 972887805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_76
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1371
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8023cda4011328439e2150b7e1186a2
+      internalID: 1388587358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd197b6c133eef41b159bec441e0dfb
+      internalID: 1605842215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_78
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394ee17fce886fd4593e63d78be9831b
+      internalID: -92734598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_79
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b8df00fe016894c99e7c19069dbb1b
+      internalID: 1927191706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_80
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a23cd66b577e7f408f6fd803183eea8
+      internalID: 690817690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_81
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ddb8ee7049087479cf2b2f3a085342
+      internalID: -1631578802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_82
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f91c9549ac971f42b85c0f0a54faaf2
+      internalID: 1034347755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_83
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffe24e476ed819429b04b2343592d7d
+      internalID: 1431813777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_84
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e92118984dd99c245914acb19bef44ac
+      internalID: 751130890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_85
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f085d9339c99849bbdcea5472c5c4a
+      internalID: 484266093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_86
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582d2f883b258e946805e529d5f0b2b4
+      internalID: -1958216191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_87
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63d3405cf4ff3241a324df3b66b5e5f
+      internalID: -709494896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_88
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e041a6ee99744ad4988f6d98811dfaec
+      internalID: -311364742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_89
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d127615b8cdd132448dac652fb145aae
+      internalID: 1353312026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_90
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607d8fa3347da4243947ff57bcbaf2fc
+      internalID: -568383303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_91
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da55a01db63d0b4ca48151d89b96247
+      internalID: 175742596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_92
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18515ea9be10134081e06f2c012bc41
+      internalID: 2105928908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_93
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7904d75e5ea20354484cfc2f57f78c70
+      internalID: 326093119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_94
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c772918e1e22a34bbbeac9b6f271e49
+      internalID: 155152951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_95
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e4bc7452ebab041bcd1ae3944ff8e8
+      internalID: -42416254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_96
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1748107b52b07334ba7c09053ff97ae6
+      internalID: 1935481348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_97
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d03a3b931435743994bf07458a7680
+      internalID: -1490054284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_98
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c4b073b679074681352b4115b124e
+      internalID: 867602896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_99
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e944c76c610c014a90bb8df7ad679d1
+      internalID: -1181431065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_100
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 047126b70774c9f4fb5559d47c3587da
+      internalID: -718262076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_101
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1243
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a08337cb1523c4883042b9d8fef5a1
+      internalID: -1197562220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbedc3ba04de2041824c694983713da
+      internalID: 770565111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35abe512894e2534d97f686b053fe966
+      internalID: -1656794314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883d86ddb382eea4c8b495567451374f
+      internalID: -608517704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401413f112e76f44492fe415a3beb080
+      internalID: 329158139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757131f3badeb624c919281575dfe77d
+      internalID: -1770772869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_107
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6c400c978b6ce41974a42dfddf9efd
+      internalID: -1103961289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefd4e5e209b7434992c0e7743c60104
+      internalID: -1442370361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_109
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71139b79c268e8a478cdd9f4e44870a6
+      internalID: 1508825186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_110
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9421978319b8d4887b0996625efa97
+      internalID: 1555103154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_111
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd809227f579ea40aba262906b83743
+      internalID: -2141580339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_112
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67d499bd550d324aae30e38e000cebe
+      internalID: 1332101295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_113
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d544466e7ced5bd44a6e9a96b9780446
+      internalID: -116279103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_114
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2fac22608f26a4d993a56e7726f7b8
+      internalID: 1195695445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_115
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33cdb15d2cfa954e91c35cb3415cad5
+      internalID: -208861484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_116
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d4b534e9f7aa14fbab514edd08410b
+      internalID: 1092861833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_117
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b5931a9553e72408584e7f9249439d
+      internalID: -1762421555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_118
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f54ce744b1467684a86b7d4afd7b4653
+      internalID: 1410286437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_119
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7f8cdba34d6c948b381fe407f6d982
+      internalID: 61243634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_120
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cd74e7ee20f044dafe6f54b3b24634
+      internalID: 280796631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_121
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306801505781d5a4687daf6e41412642
+      internalID: 233848872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_122
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f9877e5dec9b7d429e87edf7acec6ba
+      internalID: 1075751836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_123
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda70ff5395e6124889dbffe21a5730b
+      internalID: 1478528058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_124
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53aa116b93879974dad19157cc272477
+      internalID: 37752909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_125
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f82eccbed69684f468752986557cca3b
+      internalID: 1670469445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_126
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 1115
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa65a2d6ff91c141bd192f26a0c27a4
+      internalID: -1682909032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_127
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dd06ec8ca315c4fb42138515eea663
+      internalID: 2075500953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e1a8b5173274d46af3c7d9a6a983c9
+      internalID: 948697713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_129
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d20f620884ab1c46a55abc3834fadcd
+      internalID: -104908250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_130
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b295a34470acde4894cfed8065b7eaa
+      internalID: 385419316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_131
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e148c84e8db06ec49a314cf1b9551e3a
+      internalID: -671430472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_132
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb1596e65d7de242b5016871f928dc0
+      internalID: -1892225638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_133
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f0b28da5be2de045b29fa074f4f6d28
+      internalID: -450047364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_134
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f586afdefb70f47aff1a18157bb9cc
+      internalID: -717081916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_135
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae70233eebfd271459149e57ffdd4135
+      internalID: 562124954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_136
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150b0d1c98bf7a44a869401c2ec0b9a5
+      internalID: -900298796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_137
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fa88e93f9127554e9feddbb9a473b7c
+      internalID: 140900181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_138
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01945505665f79f4791b04a237e36b3d
+      internalID: -643542170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_139
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f440cb62beb24fa7b6ce522df65ae
+      internalID: -299908025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_140
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06cc1555e3b199545bc6deee9a87abf0
+      internalID: -1007624322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_141
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f7a40b91a28f3469b7294682ecc92e
+      internalID: 715393049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_142
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6422a943137bfbc4cb1b53d8c9af4b4a
+      internalID: -1058014369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_143
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4fd36df34626d443873cb9249361153
+      internalID: 1529751923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_144
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 987
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 258966acd9432aa4c8483671f0d17787
+      internalID: 132505876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e75d9f56f2cc3d4daaa850bae5df3cc
+      internalID: 794203137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_146
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4142c1b99806db74db49a97a4ad059e6
+      internalID: -921817696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_147
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf2bb9c1db410e142844fe2b2d3df66b
+      internalID: -115969302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_148
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e526f98c4dea184d86e82935683319d
+      internalID: -477244136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_149
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d885a1e6e6936a248acea0569b3bab38
+      internalID: -973479506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_150
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d1ba797b4031f43a00b07c73bdc18d
+      internalID: -1425306147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_151
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c451756d3f58cae428a4668b187f50cf
+      internalID: 300351724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_152
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955e84905b32e674aab49758a4f226ff
+      internalID: 1734151640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_153
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb42a7f840afaf41a3fdbb370f5d7d1
+      internalID: -1374534811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_154
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464e372daf32b0d41aa05359d33e04ab
+      internalID: -973466122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_155
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24d3681524b9034ca01c20bb42b1799
+      internalID: 2110122097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_156
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 059150c5cb7c71e41afafad4c9a8d3d4
+      internalID: -1148633755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_157
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d780093bfca6dd4f8eba8238cfcb34c
+      internalID: -609129189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_158
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a17abed72d1634daa2166aea2ba237
+      internalID: -748423835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_159
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9daf4d1e14faf3488776de8bdb00c54
+      internalID: -1637387530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_160
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6e792b0a2cfa147babc104117d6e5a
+      internalID: -1901715565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_161
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 859
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eef97d1349c5c4bb88044336b88d22
+      internalID: -1325627957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_162
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a6d3843084a0f46a48fe8a006e087e
+      internalID: -816943538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_163
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb312e30ae8e01459df911f54ddb635
+      internalID: 113611715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_164
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e32a2195a9352419e21aafbaadd8c8
+      internalID: 447079658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_165
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7324c34d6ddcc94daa68ecf72e68746
+      internalID: -591512127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_166
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c56559240ad2db429342729e315d979
+      internalID: -675747575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_167
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0174b629b68644db36490a3cf8275b
+      internalID: 141307732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_168
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 028fe1d0b008cdd49a1c8adb8eff0f54
+      internalID: -247939802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_169
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8d805c9033799438bcd4d25ba30792
+      internalID: 2143024876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_170
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657bc7a97ceb69f42ae5d07142daef3a
+      internalID: 127676959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_171
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15c212bbe2fea54e87bc8b7d65a0f7f
+      internalID: 1906116406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_172
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f38683c26bbe2b46924fa1dc6fe7936
+      internalID: -169316424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_173
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cce20714886574caeb209443f721a7
+      internalID: 1456482828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_174
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fd0194271a9f64798457dd506cbb4c
+      internalID: 1564849246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_175
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0404071fa100814ab25357e5d1c3d9c
+      internalID: 1780374146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_176
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3fea3e06dbe9844b15921f87257143
+      internalID: 1835464209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_177
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15c5b462ba137b409f8f35852934239
+      internalID: -1511577093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_178
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5680fd06b72666547a88a8e7ed64017e
+      internalID: -2024225169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_179
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 731
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758a90b957239df49b3e2a94ba089ea4
+      internalID: -1143790952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_180
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5221e2b8b917b2945acc78dfea4fc567
+      internalID: 367813637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_181
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2252f46edccb8f14c9bfd7bdaec1d1d8
+      internalID: -724402879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_182
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efdd204993f48074a851cfa61461b3fb
+      internalID: 2077401924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_183
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bdafe8a2318d044850974a088e43ae
+      internalID: -228895571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_184
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435789d68d7bc434ca293c1198ba7be0
+      internalID: 309804265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_185
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb2dbcc636d20f4fa0d8db30afcd19e
+      internalID: -1930580028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_186
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d65357b243997449ed4624403c9959
+      internalID: -2132895899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_187
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6595419457fbf2b4c88c9a2e00a90468
+      internalID: 448835399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_188
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bf81c6e84e0974e82a0a52d5d46f25
+      internalID: 403118013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_189
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f0b7dfd805cbb49b6f4acdaa273a51
+      internalID: 1595516663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_190
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076ee80ab6c0ccb4098b36ea83e72e4a
+      internalID: -1401054341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_191
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94f5367e2014364398524ffe9390471
+      internalID: -109966143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_192
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e486d45606937464a883acb6ab5524d2
+      internalID: 1979844030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_193
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feeaa680cd31845408917b0237bcee4f
+      internalID: -127160540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_194
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbb706abf4c6a8418ff646c5a42b360
+      internalID: -1904210349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_195
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320ab7de2c120d540811fd4fd8d173f2
+      internalID: -1918316864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_196
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c29b3007790a049b65849473950107
+      internalID: -2115286859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_197
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c567575b1d44a4f4bbbd4b5e35d71158
+      internalID: -1005364055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_198
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a400686e22362c34e941dee1f8405d31
+      internalID: 1766539625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_199
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d518dccf7f6f6874b9b7929e7da86255
+      internalID: 1778567774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_200
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700e4ac0b1c801e4e8076e72e1f0e5c4
+      internalID: -1321763608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_201
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c587468aec7d9e41925eee3e198387e
+      internalID: 343914377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_202
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dd2e981b3d5034a84a583dea16af1a
+      internalID: 506995391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_203
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469e0c2a00784bb4487b2840f18d5e51
+      internalID: 505505695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_204
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 603
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e49f7be8bcafcf458381e9d275926d1
+      internalID: 1624741960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_205
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ee892216f30dc418ccce6a8613b2b9
+      internalID: 935658196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_206
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a4dce669ddbdf47be39e233d8be689
+      internalID: -103868192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_207
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4381dcbbd5d7374a969e4f336b81eb8
+      internalID: -165635024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_208
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13936bf67b6c13644924a4132033205e
+      internalID: -1293665188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_209
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b837ed04c8344642a36940d2eb67bc3
+      internalID: 298415137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_210
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c861d278f490a84a95f05bb9342d8fb
+      internalID: 1027315373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_211
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f599af3c9d543e1459b371ef43d051c9
+      internalID: -1668627681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_212
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed6e5bbc2b8cdf4d9580cc9f19b7210
+      internalID: -391027502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_213
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ab64514af3f2b46b7cbea50e67de38
+      internalID: -1335760329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_214
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c003851b0f70fda479d713f821b0eed5
+      internalID: 1820882557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_215
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec7c9639de58d14cb6c19592d3a826d
+      internalID: -1947050433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_216
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d042e5c6cac15444796f2c1700a6e473
+      internalID: -490711586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_217
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4c85f81db38d5479bb8a350e196c92
+      internalID: 1777802789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_218
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb3cbcf28f319b40b38fe7a4433c071
+      internalID: -1308919373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_219
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5568be39bc804414fbb00ea54638ff19
+      internalID: -1448157459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_220
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e330943493ffd8d48a1758a43508f5cb
+      internalID: 1758037676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_221
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef2c2eeeeef46cf4986b4e5db363cf17
+      internalID: -414354218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_222
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17689f9aa313db2478bd8eba1ea63384
+      internalID: -1771877043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_223
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bccb46f4946f840b35577bd5b4b9e0
+      internalID: 1554725334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_224
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847f41bd5e6589d46a41c4d42577fe2c
+      internalID: -792179887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_225
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1a08f4975987643b2a45b85c71b660
+      internalID: 1196527303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_226
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281eaea2caf8e2d4a821967246348cbc
+      internalID: 268153280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_227
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dcea22c1f372d749bbd5f1476c55ff9
+      internalID: -2002960221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_228
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16ccedcf6d3dbb4eba1a4848d843bec
+      internalID: 1503074450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_229
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54199360780c954ca8f8601eeb752da
+      internalID: 1428138628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_230
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 475
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6195456ea839c48b59922a2d66ae53
+      internalID: 396302313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_231
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db48cb1bc5c34b848a8873f04df3613f
+      internalID: 1722811841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_232
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1968799063d7fbe4daab74fed2a61337
+      internalID: 2119670775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_233
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b19ee6971bd1f14faa1e60e357558be
+      internalID: 1833765487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_234
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb95cb8de66321449eef1705f0b59b2
+      internalID: 283664798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_235
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b10f32d4848f2c49b63372157427c57
+      internalID: -1374796700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_236
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6890759793abc414aab2886c195549aa
+      internalID: 135084604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_237
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64575bd859c858d44bfe3b080b197b8c
+      internalID: -734221473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_238
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6b88f29e72c9d43800f56ecd4cfa12
+      internalID: -493071448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_239
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20718443cdc8b694db4e641017e75c7f
+      internalID: 1531147494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_240
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2cb13ec932da644ae657913ef5d0d5
+      internalID: 739112612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_241
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63438d59efba8ac43947f9e6af98b226
+      internalID: -1319399475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_242
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 673dc6079099f5b4dbdee0c22d5fd902
+      internalID: 836609516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_243
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda28ba399a2af240b9dffb1cb08da83
+      internalID: 592711286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_244
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8f387c3dda05a40976ce06b60620f6
+      internalID: 572322554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_245
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93c3917bb58c4f43bda8a70af5d96fb
+      internalID: -1790319404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_246
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c83509a9813674498c75b9f368d91d
+      internalID: 1976395198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_247
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31afb2b12e82f7f4eb79931838f8535a
+      internalID: 2119913440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_248
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bca24fe21f7bad4ab63fb8e5bb04cf8
+      internalID: 1102091181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_249
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12a825755f9df44ab04fd1c13d554a4
+      internalID: 556583529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_250
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f55747ef39c59846ab46570cb74eb22
+      internalID: -2094770644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_251
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa238ad39d99a34ca740f65371a6b6e
+      internalID: -1407159260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_252
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd00fdf7302925341af9348c03ac81d8
+      internalID: 479557738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_253
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 347
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56af07a3ceb262a4584db1a6b100488b
+      internalID: 1487784423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_254
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e9cfc5ed1015a4aa0c3c5304dfe40d
+      internalID: -756891087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_255
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75784d47c12261747b32d9738c19a8b3
+      internalID: 982201668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_256
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114227b43722810419881da084d7d3b0
+      internalID: 938385107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_257
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8350cba9d3c3a634fb1e117df8fd9a6c
+      internalID: -1454304375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_258
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b746ca6be69f0cd438faca01ea140313
+      internalID: -765861720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_259
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99487ec3151210e47ae28ae345dbdd1f
+      internalID: -1839741805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_260
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ab44a76806ddb4aaf8309889968282
+      internalID: -1719588080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_261
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0bac9e785bb4044a061a0974103442
+      internalID: 1669750922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_262
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8b98da8e7bd7b044b6bfe6b194d2e37
+      internalID: -1368607735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_263
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a55cb6dffc9f34baca4f5e88bdc2a7
+      internalID: 1868023938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_264
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd9b41cb7cb60e4bb6df5f7f7009318
+      internalID: 727619291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_265
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e7f949c1326af4fa764d25d4b0222f
+      internalID: -1681149570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_266
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1fa4bc634df3b14992b657d4aac3611
+      internalID: -726516015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_267
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab941a210ce54ca45b0e47e66df57b73
+      internalID: 2047332581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_268
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bc340e149ef654eb2507dcc4c9d500
+      internalID: -320632809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_269
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c4112d8859e4941b88298f5cf5c143
+      internalID: 39411782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_270
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 219
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836f40a183eac1243870f17de3015d8d
+      internalID: 2111468089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_271
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579ff19381e63354cb999508533f2829
+      internalID: -1472395552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_272
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a4a798589ff2344843efcb53634387
+      internalID: 674806759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_273
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a320a096edbca3a41971d11197a07a1a
+      internalID: 803639600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_274
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2593a2f8b9c5248a1f1734bcea9f1a
+      internalID: 707746918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_275
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c62d5a7af9be7040af4ebba21be2fa1
+      internalID: -267494399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_276
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69708b7dc84df954b8adda826e6847d3
+      internalID: -1124957045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_277
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e816301af4b7468e5eddb0fce0ab9
+      internalID: 946152158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_278
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453b5cfbe3376504faaa39d83a7bc886
+      internalID: 1275728858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_279
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22d2b04d9640d04aa6554d5ed355cad
+      internalID: 397869183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_280
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85740ce42c2519a4d8800540fc65ccc2
+      internalID: 1790741180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_281
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8361b2eb03ed062459f13077c6b2f38b
+      internalID: 274498901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RevisedPlatformTiles128_282
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 91
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877ff560507ad3e4ca37f0096344fcf7
+      internalID: -68742937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      RevisedPlatformTiles128_193: -127160540
+      RevisedPlatformTiles128_107: -1103961289
+      RevisedPlatformTiles128_116: 1092861833
+      RevisedPlatformTiles128_40: 208860905
+      RevisedPlatformTiles128_22: 89665660
+      RevisedPlatformTiles128_259: -1839741805
+      RevisedPlatformTiles128_227: -2002960221
+      RevisedPlatformTiles128_260: -1719588080
+      RevisedPlatformTiles128_126: -1682909032
+      RevisedPlatformTiles128_199: 1778567774
+      RevisedPlatformTiles128_196: -2115286859
+      RevisedPlatformTiles128_75: 972887805
+      RevisedPlatformTiles128_32: -239819728
+      RevisedPlatformTiles128_188: 403118013
+      RevisedPlatformTiles128_94: 155152951
+      RevisedPlatformTiles128_102: 770565111
+      RevisedPlatformTiles128_252: 479557738
+      RevisedPlatformTiles128_209: 298415137
+      RevisedPlatformTiles128_70: 1101580916
+      RevisedPlatformTiles128_253: 1487784423
+      RevisedPlatformTiles128_266: -726516015
+      RevisedPlatformTiles128_92: 2105928908
+      RevisedPlatformTiles128_0: -1045407406
+      RevisedPlatformTiles128_55: -850807034
+      RevisedPlatformTiles128_82: 1034347755
+      RevisedPlatformTiles128_108: -1442370361
+      RevisedPlatformTiles128_144: 132505876
+      RevisedPlatformTiles128_207: -165635024
+      RevisedPlatformTiles128_37: 1683373705
+      RevisedPlatformTiles128_133: -450047364
+      RevisedPlatformTiles128_137: 140900181
+      RevisedPlatformTiles128_275: -267494399
+      RevisedPlatformTiles128_206: -103868192
+      RevisedPlatformTiles128_242: 836609516
+      RevisedPlatformTiles128_191: -109966143
+      RevisedPlatformTiles128_45: 958955565
+      RevisedPlatformTiles128_149: -973479506
+      RevisedPlatformTiles128_143: 1529751923
+      RevisedPlatformTiles128_127: 2075500953
+      RevisedPlatformTiles128_262: -1368607735
+      RevisedPlatformTiles128_178: -2024225169
+      RevisedPlatformTiles128_263: 1868023938
+      RevisedPlatformTiles128_58: 1517415052
+      RevisedPlatformTiles128_14: 105679046
+      RevisedPlatformTiles128_105: 329158139
+      RevisedPlatformTiles128_190: -1401054341
+      RevisedPlatformTiles128_244: 572322554
+      RevisedPlatformTiles128_280: 1790741180
+      RevisedPlatformTiles128_84: 751130890
+      RevisedPlatformTiles128_224: -792179887
+      RevisedPlatformTiles128_114: 1195695445
+      RevisedPlatformTiles128_221: -414354218
+      RevisedPlatformTiles128_86: -1958216191
+      RevisedPlatformTiles128_138: -643542170
+      RevisedPlatformTiles128_176: 1835464209
+      RevisedPlatformTiles128_30: 1482476874
+      RevisedPlatformTiles128_18: 1262291437
+      RevisedPlatformTiles128_186: -2132895899
+      RevisedPlatformTiles128_44: -1011416101
+      RevisedPlatformTiles128_268: -320632809
+      RevisedPlatformTiles128_217: 1777802789
+      RevisedPlatformTiles128_230: 396302313
+      RevisedPlatformTiles128_97: -1490054284
+      RevisedPlatformTiles128_174: 1564849246
+      RevisedPlatformTiles128_59: 1473604847
+      RevisedPlatformTiles128_192: 1979844030
+      RevisedPlatformTiles128_50: -1828023109
+      RevisedPlatformTiles128_33: -1578998157
+      RevisedPlatformTiles128_248: 1102091181
+      RevisedPlatformTiles128_36: 589564103
+      RevisedPlatformTiles128_115: -208861484
+      RevisedPlatformTiles128_95: -42416254
+      RevisedPlatformTiles128_98: 867602896
+      RevisedPlatformTiles128_63: 1858700918
+      RevisedPlatformTiles128_109: 1508825186
+      RevisedPlatformTiles128_158: -748423835
+      RevisedPlatformTiles128_223: 1554725334
+      RevisedPlatformTiles128_67: -1560188033
+      RevisedPlatformTiles128_208: -1293665188
+      RevisedPlatformTiles128_80: 690817690
+      RevisedPlatformTiles128_141: 715393049
+      RevisedPlatformTiles128_111: -2141580339
+      RevisedPlatformTiles128_153: -1374534811
+      RevisedPlatformTiles128_274: 707746918
+      RevisedPlatformTiles128_240: 739112612
+      RevisedPlatformTiles128_23: -1098625896
+      RevisedPlatformTiles128_145: 794203137
+      RevisedPlatformTiles128_119: 61243634
+      RevisedPlatformTiles128_120: 280796631
+      RevisedPlatformTiles128_136: -900298796
+      RevisedPlatformTiles128_128: 948697713
+      RevisedPlatformTiles128_194: -1904210349
+      RevisedPlatformTiles128_216: -490711586
+      RevisedPlatformTiles128_165: -591512127
+      RevisedPlatformTiles128_282: -68742937
+      RevisedPlatformTiles128_2: 135887514
+      RevisedPlatformTiles128_237: -734221473
+      RevisedPlatformTiles128_25: 443560980
+      RevisedPlatformTiles128_69: -1822918966
+      RevisedPlatformTiles128_117: -1762421555
+      RevisedPlatformTiles128_156: -1148633755
+      RevisedPlatformTiles128_249: 556583529
+      RevisedPlatformTiles128_228: 1503074450
+      RevisedPlatformTiles128_106: -1770772869
+      RevisedPlatformTiles128_52: -40842825
+      RevisedPlatformTiles128_272: 674806759
+      RevisedPlatformTiles128_251: -1407159260
+      RevisedPlatformTiles128_31: 1642877533
+      RevisedPlatformTiles128_167: 141307732
+      RevisedPlatformTiles128_110: 1555103154
+      RevisedPlatformTiles128_74: 1888217434
+      RevisedPlatformTiles128_48: 1618710719
+      RevisedPlatformTiles128_148: -477244136
+      RevisedPlatformTiles128_164: 447079658
+      RevisedPlatformTiles128_51: -1070419596
+      RevisedPlatformTiles128_113: -116279103
+      RevisedPlatformTiles128_73: 1415539117
+      RevisedPlatformTiles128_78: -92734598
+      RevisedPlatformTiles128_171: 1906116406
+      RevisedPlatformTiles128_101: -1197562220
+      RevisedPlatformTiles128_19: -174135962
+      RevisedPlatformTiles128_129: -104908250
+      RevisedPlatformTiles128_121: 233848872
+      RevisedPlatformTiles128_222: -1771877043
+      RevisedPlatformTiles128_182: 2077401924
+      RevisedPlatformTiles128_225: 1196527303
+      RevisedPlatformTiles128_238: -493071448
+      RevisedPlatformTiles128_183: -228895571
+      RevisedPlatformTiles128_170: 127676959
+      RevisedPlatformTiles128_9: 1444948857
+      RevisedPlatformTiles128_185: -1930580028
+      RevisedPlatformTiles128_210: 1027315373
+      RevisedPlatformTiles128_215: -1947050433
+      RevisedPlatformTiles128_132: -1892225638
+      RevisedPlatformTiles128_93: 326093119
+      RevisedPlatformTiles128_279: 397869183
+      RevisedPlatformTiles128_211: -1668627681
+      RevisedPlatformTiles128_47: -1210774259
+      RevisedPlatformTiles128_64: -1205642386
+      RevisedPlatformTiles128_271: -1472395552
+      RevisedPlatformTiles128_11: -1389370984
+      RevisedPlatformTiles128_118: 1410286437
+      RevisedPlatformTiles128_123: 1478528058
+      RevisedPlatformTiles128_139: -299908025
+      RevisedPlatformTiles128_220: 1758037676
+      RevisedPlatformTiles128_276: -1124957045
+      RevisedPlatformTiles128_20: 325197765
+      RevisedPlatformTiles128_39: 269824936
+      RevisedPlatformTiles128_62: -1232660340
+      RevisedPlatformTiles128_96: 1935481348
+      RevisedPlatformTiles128_57: -883487519
+      RevisedPlatformTiles128_60: 1332748739
+      RevisedPlatformTiles128_157: -609129189
+      RevisedPlatformTiles128_159: -1637387530
+      RevisedPlatformTiles128_130: 385419316
+      RevisedPlatformTiles128_5: -750023288
+      RevisedPlatformTiles128_163: 113611715
+      RevisedPlatformTiles128_187: 448835399
+      RevisedPlatformTiles128_71: 1884675315
+      RevisedPlatformTiles128_212: -391027502
+      RevisedPlatformTiles128_21: -1591296539
+      RevisedPlatformTiles128_147: -115969302
+      RevisedPlatformTiles128_245: -1790319404
+      RevisedPlatformTiles128_235: -1374796700
+      RevisedPlatformTiles128_72: -369109085
+      RevisedPlatformTiles128_166: -675747575
+      RevisedPlatformTiles128_10: 1495187390
+      RevisedPlatformTiles128_6: 2066520691
+      RevisedPlatformTiles128_24: -1824140927
+      RevisedPlatformTiles128_179: -1143790952
+      RevisedPlatformTiles128_13: 1027521921
+      RevisedPlatformTiles128_81: -1631578802
+      RevisedPlatformTiles128_99: -1181431065
+      RevisedPlatformTiles128_160: -1901715565
+      RevisedPlatformTiles128_254: -756891087
+      RevisedPlatformTiles128_16: 1937449094
+      RevisedPlatformTiles128_49: 1454730191
+      RevisedPlatformTiles128_28: -1518032766
+      RevisedPlatformTiles128_162: -816943538
+      RevisedPlatformTiles128_239: 1531147494
+      RevisedPlatformTiles128_15: -1115467125
+      RevisedPlatformTiles128_257: -1454304375
+      RevisedPlatformTiles128_232: 2119670775
+      RevisedPlatformTiles128_56: 712635178
+      RevisedPlatformTiles128_152: 1734151640
+      RevisedPlatformTiles128_27: -523380249
+      RevisedPlatformTiles128_236: 135084604
+      RevisedPlatformTiles128_79: 1927191706
+      RevisedPlatformTiles128_29: 1490197260
+      RevisedPlatformTiles128_184: 309804265
+      RevisedPlatformTiles128_265: -1681149570
+      RevisedPlatformTiles128_241: -1319399475
+      RevisedPlatformTiles128_277: 946152158
+      RevisedPlatformTiles128_124: 37752909
+      RevisedPlatformTiles128_7: -439791860
+      RevisedPlatformTiles128_17: -445436241
+      RevisedPlatformTiles128_43: 1120032795
+      RevisedPlatformTiles128_65: 519699474
+      RevisedPlatformTiles128_85: 484266093
+      RevisedPlatformTiles128_53: -321119356
+      RevisedPlatformTiles128_103: -1656794314
+      RevisedPlatformTiles128_140: -1007624322
+      RevisedPlatformTiles128_218: -1308919373
+      RevisedPlatformTiles128_278: 1275728858
+      RevisedPlatformTiles128_267: 2047332581
+      RevisedPlatformTiles128_264: 727619291
+      RevisedPlatformTiles128_202: 506995391
+      RevisedPlatformTiles128_204: 1624741960
+      RevisedPlatformTiles128_125: 1670469445
+      RevisedPlatformTiles128_151: 300351724
+      RevisedPlatformTiles128_201: 343914377
+      RevisedPlatformTiles128_89: 1353312026
+      RevisedPlatformTiles128_12: 387147898
+      RevisedPlatformTiles128_142: -1058014369
+      RevisedPlatformTiles128_54: -656625989
+      RevisedPlatformTiles128_256: 938385107
+      RevisedPlatformTiles128_200: -1321763608
+      RevisedPlatformTiles128_41: 1622189611
+      RevisedPlatformTiles128_198: 1766539625
+      RevisedPlatformTiles128_26: -620132985
+      RevisedPlatformTiles128_88: -311364742
+      RevisedPlatformTiles128_3: 163252431
+      RevisedPlatformTiles128_231: 1722811841
+      RevisedPlatformTiles128_76: 1388587358
+      RevisedPlatformTiles128_34: -1180120247
+      RevisedPlatformTiles128_104: -608517704
+      RevisedPlatformTiles128_243: 592711286
+      RevisedPlatformTiles128_281: 274498901
+      RevisedPlatformTiles128_172: -169316424
+      RevisedPlatformTiles128_250: -2094770644
+      RevisedPlatformTiles128_161: -1325627957
+      RevisedPlatformTiles128_195: -1918316864
+      RevisedPlatformTiles128_214: 1820882557
+      RevisedPlatformTiles128_234: 283664798
+      RevisedPlatformTiles128_87: -709494896
+      RevisedPlatformTiles128_175: 1780374146
+      RevisedPlatformTiles128_169: 2143024876
+      RevisedPlatformTiles128_205: 935658196
+      RevisedPlatformTiles128_154: -973466122
+      RevisedPlatformTiles128_177: -1511577093
+      RevisedPlatformTiles128_180: 367813637
+      RevisedPlatformTiles128_173: 1456482828
+      RevisedPlatformTiles128_229: 1428138628
+      RevisedPlatformTiles128_135: 562124954
+      RevisedPlatformTiles128_226: 268153280
+      RevisedPlatformTiles128_91: 175742596
+      RevisedPlatformTiles128_203: 505505695
+      RevisedPlatformTiles128_122: 1075751836
+      RevisedPlatformTiles128_181: -724402879
+      RevisedPlatformTiles128_38: 1426435507
+      RevisedPlatformTiles128_269: 39411782
+      RevisedPlatformTiles128_77: 1605842215
+      RevisedPlatformTiles128_4: 926624926
+      RevisedPlatformTiles128_134: -717081916
+      RevisedPlatformTiles128_261: 1669750922
+      RevisedPlatformTiles128_273: 803639600
+      RevisedPlatformTiles128_197: -1005364055
+      RevisedPlatformTiles128_42: 477049957
+      RevisedPlatformTiles128_46: -1737634567
+      RevisedPlatformTiles128_100: -718262076
+      RevisedPlatformTiles128_168: -247939802
+      RevisedPlatformTiles128_270: 2111468089
+      RevisedPlatformTiles128_255: 982201668
+      RevisedPlatformTiles128_146: -921817696
+      RevisedPlatformTiles128_246: 1976395198
+      RevisedPlatformTiles128_112: 1332101295
+      RevisedPlatformTiles128_83: 1431813777
+      RevisedPlatformTiles128_150: -1425306147
+      RevisedPlatformTiles128_1: -1714330737
+      RevisedPlatformTiles128_189: 1595516663
+      RevisedPlatformTiles128_247: 2119913440
+      RevisedPlatformTiles128_61: -66404910
+      RevisedPlatformTiles128_258: -765861720
+      RevisedPlatformTiles128_66: -235650643
+      RevisedPlatformTiles128_8: 38833107
+      RevisedPlatformTiles128_131: -671430472
+      RevisedPlatformTiles128_68: -1544447229
+      RevisedPlatformTiles128_219: -1448157459
+      RevisedPlatformTiles128_213: -1335760329
+      RevisedPlatformTiles128_35: 614797535
+      RevisedPlatformTiles128_155: 2110122097
+      RevisedPlatformTiles128_233: 1833765487
+      RevisedPlatformTiles128_90: -568383303
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
