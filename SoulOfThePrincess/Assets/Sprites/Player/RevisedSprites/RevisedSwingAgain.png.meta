@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f09b6aafc500f124d9c06e9323413264
+guid: 42481283ce4d277418c7661a4f7a8f79
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 128
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -101,458 +101,425 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RevisedSwing256_0
+      name: RevisedSwingAgain_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.29795033, y: 0.3813401}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e25eb08d93c3d54fb27acd9cfd4263a
-      internalID: -1280429974
+      spriteID: f98b0854cfcb7c64a99057f0ac0a2d2f
+      internalID: 2001940783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_1
+      name: RevisedSwingAgain_1
       rect:
         serializedVersion: 2
         x: 256
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.42423105, y: 0.41721404}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f43c3875e7ceab4ba3c28ab3c51b48d
-      internalID: -1864751398
+      spriteID: 1f8f099a703993b499da4fc9bcf15136
+      internalID: -945757020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_2
+      name: RevisedSwingAgain_2
       rect:
         serializedVersion: 2
         x: 512
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.32779837, y: 0.4310117}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a23182777a4836a42a52ce7894a9d2f2
-      internalID: 1061833038
+      spriteID: 4861f8bd407cb8249b35331844b0c42c
+      internalID: -768247695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_3
+      name: RevisedSwingAgain_3
       rect:
         serializedVersion: 2
         x: 768
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.35305429, y: 0.39513776}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9212b280b1785b14b99fdfad8a7964a2
-      internalID: -474971679
+      spriteID: a52a77a490bc39649a7b0d9385e504fd
+      internalID: -404323290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_4
+      name: RevisedSwingAgain_4
       rect:
         serializedVersion: 2
         x: 1024
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.3691268, y: 0.40617588}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7caf8318ff37d8b4b9bb50569a555d1e
-      internalID: 107273578
+      spriteID: 3405d97a09435df479b5e4338abd546e
+      internalID: -1879325500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_5
+      name: RevisedSwingAgain_5
       rect:
         serializedVersion: 2
         x: 1280
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.37831068, y: 0.40341637}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 359677d0a859a674b921b06844299c58
-      internalID: 1441402206
+      spriteID: 4d96f78c097a8944fb31fac60eef52cf
+      internalID: -152682785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_6
+      name: RevisedSwingAgain_6
       rect:
         serializedVersion: 2
         x: 1536
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.3691268, y: 0.4475689}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 345339d5df60e75408de85d826788c18
-      internalID: -1934677048
+      spriteID: cee10c233de271542bfbdd6c6c5bfb30
+      internalID: -1341221285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_7
+      name: RevisedSwingAgain_7
       rect:
         serializedVersion: 2
         x: 1792
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.38060665, y: 0.45032844}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9ed9085a379dfa479c1254deeb1bb0a
-      internalID: -1903836834
+      spriteID: 8cc672273dfd54f4dbded4f43d6b1367
+      internalID: -1432689079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_8
+      name: RevisedSwingAgain_8
       rect:
         serializedVersion: 2
         x: 2048
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.39438248, y: 0.4475689}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 218f7770cb05954469bf49343ce0c149
-      internalID: -517746709
+      spriteID: 2e9e88b7275790e458eb35203f50c193
+      internalID: 982566522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_9
+      name: RevisedSwingAgain_9
       rect:
         serializedVersion: 2
         x: 2304
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.35764694, y: 0.4254926}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ce8c037f8bd6c4a86ba30d1142d1f8
-      internalID: -871135172
+      spriteID: 12b338cec6ff74d49befad7ed5c96b15
+      internalID: -1463855431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_10
+      name: RevisedSwingAgain_10
       rect:
         serializedVersion: 2
         x: 2560
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.39897537, y: 0.43653077}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e18ac04b32f10df44afaf78b0e63b13f
-      internalID: 1850825953
+      spriteID: 9f86a921fc4af494c8ccdd91da2f275f
+      internalID: -624298949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_11
+      name: RevisedSwingAgain_11
       rect:
         serializedVersion: 2
         x: 2816
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.4058628, y: 0.45308796}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9da98c2030a3e64b81cb70d3251405f
-      internalID: -1822972456
+      spriteID: 029899e8c9e31e44a8af132bf6ba9659
+      internalID: -1001530975
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_12
+      name: RevisedSwingAgain_12
       rect:
         serializedVersion: 2
         x: 3072
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.4632635, y: 0.40893543}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fe316462dd98f54c9c2df10f1f3e958
-      internalID: 1724372608
+      spriteID: 10f29d1ddad4ade4fafafb413b571160
+      internalID: 202250736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_13
+      name: RevisedSwingAgain_13
       rect:
         serializedVersion: 2
         x: 3328
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.50688744, y: 0.4392903}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec1142295f9ed246b5a8f14c788dad5
-      internalID: 1789378633
+      spriteID: 07b7080e8b882814aa2cb533b6918b66
+      internalID: -2004992079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_14
+      name: RevisedSwingAgain_14
       rect:
         serializedVersion: 2
         x: 3584
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.4931116, y: 0.43377122}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d15d270afd840874fa0e65622e889315
-      internalID: 107903791
+      spriteID: 286ce5d8a7a53e7419e0f710a99b515a
+      internalID: -994554329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_15
+      name: RevisedSwingAgain_15
       rect:
         serializedVersion: 2
         x: 3840
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5091839, y: 0.43377122}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 823df79d9f187c14f8392bcbae19c825
-      internalID: 992845408
+      spriteID: 2224f7c1a956c0e4ebcabb16b38cca78
+      internalID: 323748541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_16
+      name: RevisedSwingAgain_16
       rect:
         serializedVersion: 2
         x: 4096
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.51148033, y: 0.4254926}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f85875a5a3532c4ba5d034a5ff99a41
-      internalID: -1462999206
+      spriteID: 62aa5cea5bf5b994289e57861f55a8a8
+      internalID: -162104952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_17
+      name: RevisedSwingAgain_17
       rect:
         serializedVersion: 2
         x: 4352
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5298481, y: 0.43377122}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: deaa2370567a6b444bd1fec40fc5dcb0
-      internalID: 601682264
+      spriteID: 37964f1c0a301754a9ee853a4d6e2652
+      internalID: 1756987145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_18
+      name: RevisedSwingAgain_18
       rect:
         serializedVersion: 2
         x: 4608
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.5459194, y: 0.4392903}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81d56aa09e066df469f23b4c6544249c
-      internalID: -784360231
+      spriteID: 508253383e437ca46ac7b9bf05144523
+      internalID: 688746300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RevisedSwing256_19
+      name: RevisedSwingAgain_19
       rect:
         serializedVersion: 2
         x: 4864
         y: 0
         width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 213
+      alignment: 9
+      pivot: {x: 0.573473, y: 0.42825216}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65385efd21587864186ecfe329248543
-      internalID: -1526870357
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: RevisedSwing256_20
-      rect:
-        serializedVersion: 2
-        x: 5120
-        y: 0
-        width: 256
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1b7605a6eaa7e948969488f996329e5
-      internalID: 20477717
+      spriteID: d0f2b6a1c6a71864d9c42eb481bd93d8
+      internalID: 183612148
       vertices: []
       indices: 
       edges: []
@@ -568,27 +535,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      RevisedSwing256_20: 20477717
-      RevisedSwing256_10: 1850825953
-      RevisedSwing256_9: -871135172
-      RevisedSwing256_3: -474971679
-      RevisedSwing256_4: 107273578
-      RevisedSwing256_2: 1061833038
-      RevisedSwing256_13: 1789378633
-      RevisedSwing256_19: -1526870357
-      RevisedSwing256_18: -784360231
-      RevisedSwing256_8: -517746709
-      RevisedSwing256_16: -1462999206
-      RevisedSwing256_11: -1822972456
-      RevisedSwing256_12: 1724372608
-      RevisedSwing256_0: -1280429974
-      RevisedSwing256_6: -1934677048
-      RevisedSwing256_7: -1903836834
-      RevisedSwing256_5: 1441402206
-      RevisedSwing256_14: 107903791
-      RevisedSwing256_15: 992845408
-      RevisedSwing256_1: -1864751398
-      RevisedSwing256_17: 601682264
+      RevisedSwingAgain_5: -152682785
+      RevisedSwingAgain_8: 982566522
+      RevisedSwingAgain_1: -945757020
+      RevisedSwingAgain_3: -404323290
+      RevisedSwingAgain_6: -1341221285
+      RevisedSwingAgain_13: -2004992079
+      RevisedSwingAgain_14: -994554329
+      RevisedSwingAgain_16: -162104952
+      RevisedSwingAgain_19: 183612148
+      RevisedSwingAgain_18: 688746300
+      RevisedSwingAgain_0: 2001940783
+      RevisedSwingAgain_17: 1756987145
+      RevisedSwingAgain_11: -1001530975
+      RevisedSwingAgain_12: 202250736
+      RevisedSwingAgain_4: -1879325500
+      RevisedSwingAgain_7: -1432689079
+      RevisedSwingAgain_9: -1463855431
+      RevisedSwingAgain_10: -624298949
+      RevisedSwingAgain_15: 323748541
+      RevisedSwingAgain_2: -768247695
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
