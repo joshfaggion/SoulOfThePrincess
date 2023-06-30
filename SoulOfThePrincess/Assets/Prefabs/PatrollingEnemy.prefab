@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5095534957317721131}
   - component: {fileID: 2068148911293890009}
   - component: {fileID: 1222804946624566224}
+  - component: {fileID: 110882358777229054}
   m_Layer: 0
   m_Name: PatrollingEnemy
   m_TagString: patrol_enemy
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7db1c69a9decfe241872e978b9f8a050, type: 3}
+  m_Sprite: {fileID: 424122592, guid: 954bee2a5f647ac4299f49160744e41d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,7 +101,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.104574144, y: -0.51721597}
+  m_Offset: {x: 0.04078132, y: -0.16635817}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -111,7 +112,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.91521204, y: 0.983042}
+  m_Size: {x: 0.8920151, y: 0.9888414}
   m_EdgeRadius: 0
 --- !u!50 &2068148911293890009
 Rigidbody2D:
@@ -149,3 +150,23 @@ MonoBehaviour:
   pointA: {x: 5, y: 1.59}
   pointB: {x: 17.15, y: 1.59}
   speed: 2
+--- !u!95 &110882358777229054
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 222419349709309770}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 438d92fbfda8eb0499093b7059407bf3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

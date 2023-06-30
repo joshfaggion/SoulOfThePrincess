@@ -728,8 +728,8 @@ BoxCollider2D:
   m_Offset: {x: 0.016279876, y: 0.048855394}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.3691268, y: 0.40617588}
-    oldSize: {x: 2.56, y: 2.13}
+    pivot: {x: 0.3348043, y: 0.21147317}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -8125,6 +8125,30 @@ PrefabInstance:
       propertyPath: pointB.y
       value: -8.527608
       objectReference: {fileID: 0}
+    - target: {fileID: 3052289692680559466, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052289692680559466, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
+      propertyPath: m_Size.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052289692680559466, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 424122592, guid: 954bee2a5f647ac4299f49160744e41d, type: 3}
+    - target: {fileID: 3052289692680559466, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5095534957317721131, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5095534957317721131, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6130343530908894766, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -8135,7 +8159,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6130343530908894766, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.096
+      value: -8.418
       objectReference: {fileID: 0}
     - target: {fileID: 6130343530908894766, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10294,7 +10318,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6130343530908894766, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.106
+      value: -17.38
       objectReference: {fileID: 0}
     - target: {fileID: 6130343530908894766, guid: a42d82c868e1fcd4e81b4f0ae88abeff, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10366,3 +10390,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 100
+--- !u!95 &1914370746
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914370740}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 438d92fbfda8eb0499093b7059407bf3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
