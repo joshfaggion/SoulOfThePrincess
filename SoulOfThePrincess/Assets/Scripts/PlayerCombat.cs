@@ -21,7 +21,7 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time >= nextAttackTime) 
         {
-            if(Input.GetKeyDown(KeyCode.Q)) 
+            if(Input.GetKeyDown(KeyCode.Space)) 
             {
                 animator.SetTrigger("attack");
                 nextAttackTime = Time.time + 1f / attackRate;

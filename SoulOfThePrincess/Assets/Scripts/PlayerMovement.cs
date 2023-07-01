@@ -60,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(movX, rb.velocity.y);
             
-            if (Input.GetButtonDown("Jump") && onGround())
+            if (Input.GetKeyDown(KeyCode.W) && onGround())
             {
                 rb.velocity = new Vector2(rb.velocity.x, jumpForce);
             }
