@@ -23,6 +23,7 @@ public class HelpButtons : MonoBehaviour
     }
     public void OnClickOpenHelpScreen()
     {
+        Time.timeScale = 0;
         Screen.SetActive(true);
     }
     public void OnClickScreenOne()
@@ -40,6 +41,7 @@ public class HelpButtons : MonoBehaviour
         Screen.SetActive(false);
         ScreenOne.SetActive(true);
         ScreenTwo.SetActive(false);
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame

@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D coll;
     private Animator anim;
     private SpriteRenderer sprite;
-    private int health = 3;
+    public int health = 3;
     private bool invincible = false;
     private float invincibleCooldown = 3f;
     private float currentCooldown = 0;

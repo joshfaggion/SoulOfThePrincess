@@ -38,6 +38,13 @@ public class MenuController : MonoBehaviour
     }
     void credPressed()
     {
-        CredScreen.SetActive(true);
+        if (CredScreen.activeSelf)
+        {
+            CredScreen.SetActive(false);
+        }
+        else
+        {
+            CredScreen.SetActive(true);
+        }
     }
 }
