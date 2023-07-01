@@ -9,15 +9,19 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
+    public GameObject Screen;
+    public GameObject CredScreen;
     public Button play;
     public Button help;
     public Button quit;
+    public Button cred;
     // Start is called before the first frame update
     void Start()
     {
         play.onClick.AddListener(playPressed);
         help.onClick.AddListener(helpPressed);
         quit.onClick.AddListener(quitPressed);
+        cred.onClick.AddListener(credPressed);
     }
 
     void playPressed()
@@ -26,10 +30,14 @@ public class MenuController : MonoBehaviour
     }
     void helpPressed()
     {
-        ;
+        Screen.SetActive(true);
     }
     void quitPressed()
     {
         Application.Quit();
+    }
+    void credPressed()
+    {
+        CredScreen.SetActive(true);
     }
 }
