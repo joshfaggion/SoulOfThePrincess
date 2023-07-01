@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
+    public Animator anim;
+    public BoxCollider2D[] colliders;
 
-
-    public int maxHealth = 100;
-    int currentHealth;
+    public int maxHealth = 120;
+    public int currentHealth;
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        colliders = GetComponents<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -24,16 +26,16 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int damage) {
         currentHealth -= damage;
 
-        // play hurt animation
-
         if (currentHealth <= 0) {
-            Die();
+            anim.SetTrigger("death");
+
+            foreach(BoxCollider2D collider in colliders) {
+                collider.enabled = !collider.enabled;
+            }
         }
     }
 
     void Die() {
-        Debug.Log("Enemy killed!");
-
         Destroy(gameObject);
     }
 }

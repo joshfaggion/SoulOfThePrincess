@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private int health = 3;
     private bool invincible = false;
-    private float invincibleCooldown = 3f;
+    private float invincibleCooldown = 1f;
     private float currentCooldown = 0;
 
     [SerializeField] private LayerMask jumpableGround;
@@ -27,6 +27,12 @@ public class PlayerMovement : MonoBehaviour
     public Image healthIcon3;
     public Sprite fullSprite;
     public Sprite noneSprite;
+
+    public float KBForce;
+    public float KBCounter;
+    public float KBTotalTime;
+
+    public bool KnockFromRight;
 
     private enum MovementState
     {
@@ -49,11 +55,30 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         float movX = Input.GetAxisRaw("Horizontal") * speed;
-        rb.velocity = new Vector2(movX, rb.velocity.y);
-        if (Input.GetButtonDown("Jump") && onGround())
+
+        if (KBCounter <= 0) 
         {
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.velocity = new Vector2(movX, rb.velocity.y);
+            
+            if (Input.GetButtonDown("Jump") && onGround())
+            {
+                rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            }
+        } 
+        else
+        {
+            if (KnockFromRight == true)
+            {
+                rb.velocity = new Vector2(-KBForce, KBForce / 2f);
+            }
+            if (KnockFromRight == false)
+            {
+                rb.velocity = new Vector2(KBForce, KBForce / 2f);
+            }
+            KBCounter -= Time.deltaTime;
         }
+
+        
         AnimationUpdate(movX);
         if (currentCooldown > 0) currentCooldown -= Time.deltaTime;
         if (currentCooldown <= 0 && invincible)
@@ -68,12 +93,12 @@ public class PlayerMovement : MonoBehaviour
         if (movX > 0f)
         {
             state = MovementState.run;
-            sprite.flipX = false;
+            transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
         else if (movX < 0f)
         {
             state = MovementState.run;
-            sprite.flipX = true;
+            transform.eulerAngles = new Vector3(0f, 180f, 0f);
         }
         else
         {
@@ -102,7 +127,20 @@ public class PlayerMovement : MonoBehaviour
         {
             if (!invincible)
             {
+                KBCounter = KBTotalTime;
+                if (transform.position.x <= other.transform.position.x)
+                {
+                    KnockFromRight = true;
+                }
+                if (transform.position.x > other.transform.position.x)
+                {
+                    KnockFromRight = false;
+                }
+
                 health--;
+
+                anim.SetTrigger("hurt");
+
                 currentCooldown = invincibleCooldown;
                 updateHealthIcon();
                 if (health <= 0)
@@ -115,6 +153,10 @@ public class PlayerMovement : MonoBehaviour
             SceneManager.LoadScene("Win");
         }
     }
+
+    // private void Flip() {
+    //     transform.Rotate(0f, 180f);
+    // }
 
     private void updateHealthIcon()
     {
