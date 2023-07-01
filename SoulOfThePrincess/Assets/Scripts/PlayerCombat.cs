@@ -39,7 +39,6 @@ public class PlayerCombat : MonoBehaviour
         foreach(Collider2D enemy in hitEnemies) {
 
             enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
-            Debug.Log("Attacked");
             
             // tell the enemy which way to receive knockback from
             string direction = "";
@@ -51,7 +50,12 @@ public class PlayerCombat : MonoBehaviour
             {
                 direction = "left";
             }
-            enemy.GetComponent<Enemy>().TakeKnockback(direction);
+
+            if (enemy.name.Contains("Hard_Enemy")) {
+                enemy.GetComponent<Hard_Enemy_Weapon>().TakeKnockback(direction);
+            } else {
+                enemy.GetComponent<Enemy>().TakeKnockback(direction);
+            }
         }
     }
 

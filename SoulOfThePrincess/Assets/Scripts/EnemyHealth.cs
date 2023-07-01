@@ -29,9 +29,9 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0) {
             anim.SetTrigger("death");
 
-            foreach(BoxCollider2D collider in colliders) {
-                collider.enabled = !collider.enabled;
-            }
+            // foreach(BoxCollider2D collider in colliders) {
+            //     collider.enabled = !collider.enabled;
+            // }
         }
     }
 

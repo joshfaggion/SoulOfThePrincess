@@ -40,7 +40,6 @@ public class Enemy : MonoBehaviour
         // either take knockback or allow movement
         if (KBCounter <= 0)
         {   
-
             // make the character move in the correct direction
             float xDiff = transform.position.x - currentDestination.position.x;
             if(currentDirection == "right") {
@@ -81,25 +80,6 @@ public class Enemy : MonoBehaviour
         }
     }
         
-
-        /*
-        // set the new enemy destination if it gets close to one of the points
-        if(Vector3.Distance(transform.position, currentDestination.position) < 1f && currentDirection == "right")
-        {
-            // flip();
-
-            currentDestination.position = pointA;
-            currentDirection = "left";
-        }
-        if(Vector3.Distance(transform.position, currentDestination.position) < 1f && currentDirection == "left")
-        {
-            // flip();
-            
-            currentDestination.position = pointB;
-            currentDirection = "right";
-        }
-        */
-
     // give the update function the correct variables to receive knockback
     public void TakeKnockback(string direction) {
         anim.SetTrigger("hurt");
@@ -114,11 +94,4 @@ public class Enemy : MonoBehaviour
             KnockFromRight = false;
         }
     }
-
-    // make the enemy model flip directions on the X axis
-    // private void flip() {
-    //     Vector3 localScale = transform.localScale;
-    //     localScale.x *= -1;
-    //     transform.localScale = localScale;
-    // }
 }

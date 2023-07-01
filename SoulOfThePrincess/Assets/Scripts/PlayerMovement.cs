@@ -125,32 +125,37 @@ public class PlayerMovement : MonoBehaviour
     {
         if (other.CompareTag("patrol_enemy"))
         {
-            if (!invincible)
-            {
-                KBCounter = KBTotalTime;
-                if (transform.position.x <= other.transform.position.x)
-                {
-                    KnockFromRight = true;
-                }
-                if (transform.position.x > other.transform.position.x)
-                {
-                    KnockFromRight = false;
-                }
-
-                health--;
-
-                anim.SetTrigger("hurt");
-
-                currentCooldown = invincibleCooldown;
-                updateHealthIcon();
-                if (health <= 0)
-                {
-                    SceneManager.LoadScene("Menu");
-                }
-                invincible = true;
-            }
+            TakeDamage(other);            
         } else if (other.CompareTag("Door")) {
             SceneManager.LoadScene("Win");
+        }
+    }
+
+    public void TakeDamage(Collider2D other) {
+        if (!invincible)
+        {
+            KBCounter = KBTotalTime;
+            if (transform.position.x <= other.transform.position.x)
+            {
+                KnockFromRight = true;
+            }
+            if (transform.position.x > other.transform.position.x)
+            {
+                KnockFromRight = false;
+            }
+
+            health--;
+
+            anim.SetTrigger("hurt");
+
+            currentCooldown = invincibleCooldown;
+            
+            updateHealthIcon();
+            if (health <= 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }
+            invincible = true;
         }
     }
 

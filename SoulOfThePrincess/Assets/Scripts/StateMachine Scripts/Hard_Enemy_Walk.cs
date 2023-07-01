@@ -12,6 +12,7 @@ public class Hard_Enemy_Walk : StateMachineBehaviour
     Rigidbody2D rb;
 
     Hard_Enemy hard_enemy;
+    Hard_Enemy_Weapon hard_enemy_weapon;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
@@ -20,6 +21,7 @@ public class Hard_Enemy_Walk : StateMachineBehaviour
        rb = animator.GetComponent<Rigidbody2D>();
 
        hard_enemy = animator.GetComponent<Hard_Enemy>();
+       hard_enemy_weapon = animator.GetComponent<Hard_Enemy_Weapon>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -27,14 +29,17 @@ public class Hard_Enemy_Walk : StateMachineBehaviour
     {
       hard_enemy.LookAtPlayer();
 
-       Vector2 target = new Vector2(player.position.x, rb.position.y);
-       Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
-       rb.MovePosition(newPos);
+      if (!hard_enemy_weapon.stunned) {
+         Vector2 target = new Vector2(player.position.x, rb.position.y);
+         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
+         rb.MovePosition(newPos);
 
-       if (Vector2.Distance(player.position, rb.position) <= attackRange)
-       {
-         animator.SetTrigger("attack");
-       }
+         if (Vector2.Distance(player.position, rb.position) <= attackRange)
+         {
+            animator.SetTrigger("attack");
+            rb.velocity = new Vector2(0f, 0f);
+         }
+      }
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
