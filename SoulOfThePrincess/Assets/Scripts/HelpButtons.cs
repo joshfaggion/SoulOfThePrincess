@@ -23,7 +23,6 @@ public class HelpButtons : MonoBehaviour
     }
     public void OnClickOpenHelpScreen()
     {
-        Time.timeScale = 0;
         Screen.SetActive(true);
     }
     public void OnClickScreenOne()
