@@ -34,13 +34,15 @@ public class PlayerMovement : MonoBehaviour
 
     public bool KnockFromRight;
 
+    public Vector2 spawnLocation = new Vector2(36, -8);
+
     private enum MovementState
     {
         idle,
         run,
         up,
         down
-    }
+    } 
 
     // Start is called before the first frame update
     void Start()
@@ -128,6 +130,26 @@ public class PlayerMovement : MonoBehaviour
             TakeDamage(other);            
         } else if (other.CompareTag("Door")) {
             SceneManager.LoadScene("Win");
+        }
+
+        if (other.CompareTag("Spikes"))
+        {
+            transform.position = spawnLocation;
+            health--;
+
+            anim.SetTrigger("hurt");
+            currentCooldown = invincibleCooldown;
+
+            updateHealthIcon();
+            if (health <= 0)
+            {
+                SceneManager.LoadScene("Menu");
+            }
+            invincible = true;
+        }
+
+        if (other.CompareTag("checkpoint")) {
+            spawnLocation = other.gameObject.transform.position;
         }
     }
 
