@@ -6,6 +6,8 @@ TagManager:
   tags:
   - patrol_enemy
   - Door
+  - Spikes
+  - checkpoint
   layers:
   - Default
   - TransparentFX
