@@ -15,6 +15,7 @@ public class MenuController : MonoBehaviour
     public Button help;
     public Button quit;
     public Button cred;
+    public Button menu;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,11 +23,16 @@ public class MenuController : MonoBehaviour
         help.onClick.AddListener(helpPressed);
         quit.onClick.AddListener(quitPressed);
         cred.onClick.AddListener(credPressed);
+        menu.onClick.AddListener(credPressed);
     }
 
     void playPressed()
     {
         SceneManager.LoadScene("Level1");
+    }
+    void menuPressed()
+    {
+        SceneManager.LoadScene("Menu");
     }
     void helpPressed()
     {
