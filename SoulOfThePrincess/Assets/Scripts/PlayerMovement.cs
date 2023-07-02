@@ -143,7 +143,7 @@ public class PlayerMovement : MonoBehaviour
             updateHealthIcon();
             if (health <= 0)
             {
-                SceneManager.LoadScene("Menu");
+                Death();
             }
             invincible = true;
         }
@@ -175,15 +175,31 @@ public class PlayerMovement : MonoBehaviour
             updateHealthIcon();
             if (health <= 0)
             {
-                SceneManager.LoadScene("Menu");
+                Death();
+                // SceneManager.LoadScene("Menu");
             }
             invincible = true;
         }
     }
 
-    // private void Flip() {
-    //     transform.Rotate(0f, 180f);
-    // }
+    private void Death() {
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        KBCounter = 3f;
+
+        if (currentScene == "Level1") {
+            TransitionToScene("Level1");
+        } 
+        else if (currentScene == "Level2") {
+            TransitionToScene("Level2");
+        }
+
+        
+    }
+
+    void TransitionToScene(string sceneName) {
+        GameObject.Find("Canvas/LevelLoader").GetComponent<LevelLoader>().LoadLevel(sceneName);
+    }
 
     private void updateHealthIcon()
     {
