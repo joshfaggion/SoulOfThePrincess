@@ -39,7 +39,7 @@ public class PlayerCombat : MonoBehaviour
         foreach(Collider2D enemy in hitEnemies) {
             string direction = "";
 
-            if (!enemy.name.Contains("Barrel")) {
+            if (!enemy.name.Contains("Barrel") && !enemy.name.Contains("Lever")) {
                 enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
                 
                 // tell the enemy which way to receive knockback from
@@ -53,13 +53,15 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
             
-
+            Debug.Log(enemy.name);
             if (enemy.name.Contains("Hard_Enemy")) {
                 enemy.GetComponent<Hard_Enemy_Weapon>().TakeKnockback(direction);
             } else if (enemy.name.Contains("Enemy")) {
                 enemy.GetComponent<Enemy>().TakeKnockback(direction);
             } else if (enemy.name.Contains("Barrel")) {
                 enemy.GetComponent<Barrel>().TakeDamage(attackDamage);
+            } else if (enemy.name.Contains("Lever")) {
+                enemy.GetComponent<Lever>().LeverHit();
             }
         }
     }
