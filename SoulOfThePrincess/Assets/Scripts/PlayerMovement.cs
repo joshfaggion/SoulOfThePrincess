@@ -151,6 +151,10 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("checkpoint")) {
             spawnLocation = other.gameObject.transform.position;
         }
+
+        if (other.CompareTag("deathbox")) {
+            Death();
+        }
     }
 
     public void TakeDamage(Collider2D other) {

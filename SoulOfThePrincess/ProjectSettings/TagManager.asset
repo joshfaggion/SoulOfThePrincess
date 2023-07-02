@@ -8,6 +8,7 @@ TagManager:
   - Door
   - Spikes
   - checkpoint
+  - deathbox
   layers:
   - Default
   - TransparentFX
