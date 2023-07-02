@@ -17,12 +17,6 @@ public class EnemyHealth : MonoBehaviour
         colliders = GetComponents<BoxCollider2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void TakeDamage(int damage) {
         currentHealth -= damage;
 

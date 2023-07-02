@@ -37,24 +37,29 @@ public class PlayerCombat : MonoBehaviour
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach(Collider2D enemy in hitEnemies) {
-
-            enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
-            
-            // tell the enemy which way to receive knockback from
             string direction = "";
-            if (transform.position.x <= enemy.transform.position.x)
-            {
-                direction = "right";
+
+            if (!enemy.name.Contains("Barrel")) {
+                enemy.GetComponent<EnemyHealth>().TakeDamage(attackDamage);
+                
+                // tell the enemy which way to receive knockback from
+                if (transform.position.x <= enemy.transform.position.x)
+                {
+                    direction = "right";
+                }
+                if (transform.position.x > enemy.transform.position.x)
+                {
+                    direction = "left";
+                }
             }
-            if (transform.position.x > enemy.transform.position.x)
-            {
-                direction = "left";
-            }
+            
 
             if (enemy.name.Contains("Hard_Enemy")) {
                 enemy.GetComponent<Hard_Enemy_Weapon>().TakeKnockback(direction);
-            } else {
+            } else if (enemy.name.Contains("Enemy")) {
                 enemy.GetComponent<Enemy>().TakeKnockback(direction);
+            } else if (enemy.name.Contains("Barrel")) {
+                enemy.GetComponent<Barrel>().TakeDamage(attackDamage);
             }
         }
     }
