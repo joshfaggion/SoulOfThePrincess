@@ -15,24 +15,21 @@ public class MenuController : MonoBehaviour
     public Button help;
     public Button quit;
     public Button cred;
-    public Button menu;
+
     // Start is called before the first frame update
     void Start()
     {
+        string currentScene = SceneManager.GetActiveScene().name;
+
         play.onClick.AddListener(playPressed);
         help.onClick.AddListener(helpPressed);
         quit.onClick.AddListener(quitPressed);
         cred.onClick.AddListener(credPressed);
-        menu.onClick.AddListener(credPressed);
     }
 
     void playPressed()
     {
-        SceneManager.LoadScene("Level1");
-    }
-    void menuPressed()
-    {
-        SceneManager.LoadScene("Menu");
+        TransitionToScene("CutSceneOne");
     }
     void helpPressed()
     {
@@ -52,5 +49,9 @@ public class MenuController : MonoBehaviour
         {
             CredScreen.SetActive(true);
         }
+    }
+
+    void TransitionToScene(string sceneName) {
+        GameObject.Find("Canvas/LevelLoader").GetComponent<LevelLoader>().LoadLevel(sceneName);
     }
 }
