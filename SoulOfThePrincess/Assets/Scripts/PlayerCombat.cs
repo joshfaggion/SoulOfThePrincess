@@ -8,6 +8,9 @@ public class PlayerCombat : MonoBehaviour
     public Animator animator;
     public Transform attackPoint;
 
+    public GameObject AudioObject;
+    AudioManager audio;
+
     public int attackDamage = 40;
     public float attackRange = 0.5f;
     public float attackRate = 2f;
@@ -16,6 +19,10 @@ public class PlayerCombat : MonoBehaviour
 
     public LayerMask enemyLayers;
 
+    void Start() {
+        audio = AudioObject.GetComponent<AudioManager>();
+    }
+
 
     void Update()
     {
@@ -23,6 +30,7 @@ public class PlayerCombat : MonoBehaviour
         {
             if(Input.GetKeyDown(KeyCode.Space)) 
             {
+                audio.PlaySound("sword_swing");
                 animator.SetTrigger("attack");
                 nextAttackTime = Time.time + 1f / attackRate;
             }
@@ -53,7 +61,6 @@ public class PlayerCombat : MonoBehaviour
                 }
             }
             
-            Debug.Log(enemy.name);
             if (enemy.name.Contains("Hard_Enemy")) {
                 enemy.GetComponent<Hard_Enemy_Weapon>().TakeKnockback(direction);
             } else if (enemy.name.Contains("Enemy")) {

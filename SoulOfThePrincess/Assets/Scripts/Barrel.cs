@@ -10,10 +10,14 @@ public class Barrel : MonoBehaviour
     public int maxHealth = 120;
     public int currentHealth;
 
+    public GameObject AudioObject;
+    AudioManager audio;
+
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
+        audio = AudioObject.GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -24,14 +28,14 @@ public class Barrel : MonoBehaviour
 
     public void TakeDamage(int damage) {
         currentHealth -= damage;
-        flashEffect.Flash();
 
         if (currentHealth <= 0) {
+            audio.PlaySound("barrel_death");
             anim.SetTrigger("death");
-
-            // foreach(BoxCollider2D collider in colliders) {
-            //     collider.enabled = !collider.enabled;
-            // }
+        } else {
+            audio.PlaySound("barrel_hit");
+        
+            flashEffect.Flash();
         }
     }
 

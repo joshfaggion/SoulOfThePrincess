@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     private float invincibleCooldown = 1f;
     private float currentCooldown = 0;
 
+    public GameObject AudioObject;
+    AudioManager audio;
+
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpForce = 7f;
@@ -51,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+
+        audio = AudioObject.GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -87,6 +92,10 @@ public class PlayerMovement : MonoBehaviour
         {
             invincible = false;
         }
+    }
+
+    void Step() {
+        audio.PlaySound("footstep");
     }
 
     private void AnimationUpdate(float movX)
