@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
             PlayClip(PatrolEnemyHurtSFX, .1f);
         }
         if (name == "patrol_enemy_killed") {
-            PlayClip(PatrolEnemyKilledSFX, .08f);
+            PlayClip(PatrolEnemyKilledSFX, .05f);
         }
         if (name == "enemy_hit") {
             PlayClip(EnemyHitSFX, 0.1f);
@@ -45,7 +45,7 @@ public class AudioManager : MonoBehaviour
             PlayClip(HardEnemyHurtSFX, 0.1f);
         }
         if (name == "hard_enemy_killed") {
-            PlayClip(HardEnemyKilledSFX, 0.2f);
+            PlayClip(HardEnemyKilledSFX, 0.1f);
         }
         if (name == "sword_swing") {
             PlayClip(SwordSwingSFX, .03f);
@@ -55,7 +55,7 @@ public class AudioManager : MonoBehaviour
             PlayClip(PlayerHurtSFX, .007f);
         }
         if (name == "death") {
-            PlayClip(PlayerDeathSFX, 0.3f);
+            PlayClip(PlayerDeathSFX, 0.2f);
         }
 
 
@@ -67,10 +67,10 @@ public class AudioManager : MonoBehaviour
             PlayClip(DoorOpenSFX, .3f);
         }
         if (name == "barrel_hit") {
-            PlayClip(BarrelHitSFX, .07f);
+            PlayClip(BarrelHitSFX, .02f);
         }
         if (name == "barrel_death") {
-            PlayClip(BarrelKilledSFX, .08f);
+            PlayClip(BarrelKilledSFX, .04f);
         }
 
         if (name == "footstep") {
