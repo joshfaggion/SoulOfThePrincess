@@ -14,7 +14,7 @@ public class EndScreenButtons : MonoBehaviour
 
     void menuPressed()
     {
-        SceneManager.LoadScene("Menu");
+        GameObject.Find("Canvas/LevelLoader").GetComponent<LevelLoader>().LoadLevel("Menu");
     }
 
 

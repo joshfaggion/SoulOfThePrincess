@@ -134,11 +134,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        string currentScene = SceneManager.GetActiveScene().name;
+
         if (other.CompareTag("patrol_enemy"))
         {
             TakeDamage(other);            
         } else if (other.CompareTag("Door")) {
-            TransitionToScene("CutScene2");
+            if (currentScene == "Level1") {
+                TransitionToScene("CutScene2");
+            } else {
+                TransitionToScene("Win");
+            }
         }
         if (other.CompareTag("checkpoint")) {
             spawnLocation = other.gameObject.transform.position;
