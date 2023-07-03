@@ -138,7 +138,7 @@ public class PlayerMovement : MonoBehaviour
         {
             TakeDamage(other);            
         } else if (other.CompareTag("Door")) {
-            SceneManager.LoadScene("Win");
+            TransitionToScene("CutScene2");
         }
         if (other.CompareTag("checkpoint")) {
             spawnLocation = other.gameObject.transform.position;
