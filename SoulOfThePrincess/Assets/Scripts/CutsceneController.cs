@@ -13,6 +13,7 @@ public class CutsceneController : MonoBehaviour
         if (currentScene == "CutSceneOne") {
             StartCoroutine(TransitionFromVideo("Level1", 22f));
         } else if (currentScene == "CutScene2") {
+            Music.instance.PlayMusic();
             StartCoroutine(TransitionFromVideo("Level2", 22f));
         }
     }

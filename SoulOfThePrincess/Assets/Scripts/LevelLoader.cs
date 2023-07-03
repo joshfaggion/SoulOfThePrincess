@@ -11,6 +11,9 @@ public class LevelLoader : MonoBehaviour
     public float transitionTime = 1.0f;
 
     // Update is called once per frame
+    void Awake() {
+    }
+
     void Update()
     {
         

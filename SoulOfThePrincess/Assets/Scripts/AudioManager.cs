@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
             PlayClip(PatrolEnemyHurtSFX, .1f);
         }
         if (name == "patrol_enemy_killed") {
-            PlayClip(PatrolEnemyKilledSFX, .05f);
+            PlayClip(PatrolEnemyKilledSFX, .01f);
         }
         if (name == "enemy_hit") {
             PlayClip(EnemyHitSFX, 0.1f);

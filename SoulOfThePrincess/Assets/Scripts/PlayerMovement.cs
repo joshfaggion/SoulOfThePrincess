@@ -56,6 +56,7 @@ public class PlayerMovement : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
 
         audio = AudioObject.GetComponent<AudioManager>();
+        Music.instance.PlayMusic();
     }
 
     // Update is called once per frame

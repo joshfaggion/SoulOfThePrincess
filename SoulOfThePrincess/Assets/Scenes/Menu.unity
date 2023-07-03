@@ -6352,8 +6352,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1947e4c448f944e869d6c808f72c32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MenuMusic: {fileID: 8300000, guid: 6fc18808993d62b48ac64f6fc002c4ac, type: 3}
-  volume: 0.18
+  MenuMusic: {fileID: 8300000, guid: 2ea7b613904f8444594e77f846dd18ec, type: 3}
+  LevelMusic: {fileID: 8300000, guid: 3af931360305dea4aa2f488db0c639fd, type: 3}
+  volume: 0.07
+  CutsceneMusic: {fileID: 8300000, guid: d863b5cec6c5fbc4db811dc0589e643e, type: 3}
 --- !u!82 &4311208915567328091
 AudioSource:
   m_ObjectHideFlags: 0
