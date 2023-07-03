@@ -19,6 +19,9 @@ public class PlayerMovement : MonoBehaviour
     private float invincibleCooldown = 1f;
     private float currentCooldown = 0;
 
+    public GameObject AudioObject;
+    AudioManager audio;
+
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private float speed = 5f;
     [SerializeField] private float jumpForce = 7f;
@@ -51,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
         coll = GetComponent<BoxCollider2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+
+        audio = AudioObject.GetComponent<AudioManager>();
     }
 
     // Update is called once per frame
@@ -87,6 +92,10 @@ public class PlayerMovement : MonoBehaviour
         {
             invincible = false;
         }
+    }
+
+    void Step() {
+        audio.PlaySound("footstep");
     }
 
     private void AnimationUpdate(float movX)
@@ -131,29 +140,32 @@ public class PlayerMovement : MonoBehaviour
         } else if (other.CompareTag("Door")) {
             SceneManager.LoadScene("Win");
         }
-
-        if (other.CompareTag("Spikes"))
-        {
-            transform.position = spawnLocation;
-            health--;
-
-            anim.SetTrigger("hurt");
-            currentCooldown = invincibleCooldown;
-
-            updateHealthIcon();
-            if (health <= 0)
-            {
-                Death();
-            }
-            invincible = true;
-        }
-
         if (other.CompareTag("checkpoint")) {
             spawnLocation = other.gameObject.transform.position;
         }
 
         if (other.CompareTag("deathbox")) {
             Death();
+        }
+        if (other.CompareTag("Spikes"))
+        {
+            
+            health--;
+
+            anim.SetTrigger("hurt");
+            
+            audio.PlaySound("player_hurt");
+            currentCooldown = invincibleCooldown;
+
+            updateHealthIcon();
+            
+            invincible = true;
+            if (health <= 0)
+            {
+                Death();
+            } else {
+                transform.position = spawnLocation;
+            }
         }
     }
 
@@ -173,13 +185,15 @@ public class PlayerMovement : MonoBehaviour
             health--;
 
             anim.SetTrigger("hurt");
+            audio.PlaySound("player_hurt");
 
             currentCooldown = invincibleCooldown;
             
             updateHealthIcon();
             if (health <= 0)
-            {
+            {   
                 Death();
+                
                 // SceneManager.LoadScene("Menu");
             }
             invincible = true;
@@ -188,14 +202,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Death() {
         string currentScene = SceneManager.GetActiveScene().name;
+        audio.PlaySound("death");
 
         KBCounter = 3f;
 
         if (currentScene == "Level1") {
             TransitionToScene("Level1");
-        } 
-        else if (currentScene == "Level2") {
+        } else if (currentScene == "Level2") {
             TransitionToScene("Level2");
+        } else if (currentScene == "SFX Test Level") {
+            TransitionToScene("SFX Test Level");
         }
 
         
