@@ -140,10 +140,16 @@ public class PlayerMovement : MonoBehaviour
         } else if (other.CompareTag("Door")) {
             SceneManager.LoadScene("Win");
         }
+        if (other.CompareTag("checkpoint")) {
+            spawnLocation = other.gameObject.transform.position;
+        }
 
+        if (other.CompareTag("deathbox")) {
+            Death();
+        }
         if (other.CompareTag("Spikes"))
         {
-            transform.position = spawnLocation;
+            
             health--;
 
             anim.SetTrigger("hurt");
@@ -152,19 +158,14 @@ public class PlayerMovement : MonoBehaviour
             currentCooldown = invincibleCooldown;
 
             updateHealthIcon();
+            
+            invincible = true;
             if (health <= 0)
             {
                 Death();
+            } else {
+                transform.position = spawnLocation;
             }
-            invincible = true;
-        }
-
-        if (other.CompareTag("checkpoint")) {
-            spawnLocation = other.gameObject.transform.position;
-        }
-
-        if (other.CompareTag("deathbox")) {
-            Death();
         }
     }
 
