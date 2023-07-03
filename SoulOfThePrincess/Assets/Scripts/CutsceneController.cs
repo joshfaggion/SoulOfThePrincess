@@ -12,6 +12,8 @@ public class CutsceneController : MonoBehaviour
         
         if (currentScene == "CutSceneOne") {
             StartCoroutine(TransitionFromVideo("Level1", 8f));
+        } else if (currentScene == "CutScene2") {
+            StartCoroutine(TransitionFromVideo("Level2", 5f));
         }
     }
 
