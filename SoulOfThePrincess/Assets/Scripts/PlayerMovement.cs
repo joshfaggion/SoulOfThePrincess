@@ -147,6 +147,8 @@ public class PlayerMovement : MonoBehaviour
             health--;
 
             anim.SetTrigger("hurt");
+            
+            audio.PlaySound("player_hurt");
             currentCooldown = invincibleCooldown;
 
             updateHealthIcon();
@@ -182,13 +184,15 @@ public class PlayerMovement : MonoBehaviour
             health--;
 
             anim.SetTrigger("hurt");
+            audio.PlaySound("player_hurt");
 
             currentCooldown = invincibleCooldown;
             
             updateHealthIcon();
             if (health <= 0)
-            {
+            {   
                 Death();
+                
                 // SceneManager.LoadScene("Menu");
             }
             invincible = true;
@@ -197,14 +201,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Death() {
         string currentScene = SceneManager.GetActiveScene().name;
+        audio.PlaySound("death");
 
         KBCounter = 3f;
 
         if (currentScene == "Level1") {
             TransitionToScene("Level1");
-        } 
-        else if (currentScene == "Level2") {
+        } else if (currentScene == "Level2") {
             TransitionToScene("Level2");
+        } else if (currentScene == "SFX Test Level") {
+            TransitionToScene("SFX Test Level");
         }
 
         

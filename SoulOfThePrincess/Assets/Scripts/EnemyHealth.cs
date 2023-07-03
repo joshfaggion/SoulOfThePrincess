@@ -30,7 +30,6 @@ public class EnemyHealth : MonoBehaviour
                 audio.PlaySound("patrol_enemy_killed");
 
                 foreach(BoxCollider2D collider in colliders) {
-                    Debug.Log(colliders.Length);
                     collider.isTrigger = false;
                 }
             } else if (gameObject.name.Contains("Hard_Enemy")) {
@@ -38,10 +37,6 @@ public class EnemyHealth : MonoBehaviour
             }
             
             anim.SetTrigger("death");
-
-            foreach(BoxCollider2D collider in colliders) {
-                collider.enabled = !collider.enabled;
-            }
         } else {
             audio.PlaySound("enemy_hit");
             if (gameObject.name.Contains("PatrollingEnemy")) {

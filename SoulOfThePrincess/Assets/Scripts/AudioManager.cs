@@ -10,6 +10,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip PatrolEnemyHurtSFX;
     public AudioClip PatrolEnemyKilledSFX;
     public AudioClip EnemyHitSFX;
+    public AudioClip HardEnemyHurtSFX;
+    public AudioClip HardEnemyKilledSFX;
+
+    public AudioClip PlayerHurtSFX;
+    public AudioClip PlayerDeathSFX;
 
     public AudioClip SwordSwingSFX;
     public AudioClip LeverSFX;
@@ -26,6 +31,7 @@ public class AudioManager : MonoBehaviour
     }
 
     public void PlaySound(string name) {
+        // combat sounds
         if (name == "patrol_enemy_hurt") {
             PlayClip(PatrolEnemyHurtSFX, .1f);
         }
@@ -35,9 +41,25 @@ public class AudioManager : MonoBehaviour
         if (name == "enemy_hit") {
             PlayClip(EnemyHitSFX, 0.1f);
         }
+        if (name == "hard_enemy_hurt") {
+            PlayClip(HardEnemyHurtSFX, 0.1f);
+        }
+        if (name == "hard_enemy_killed") {
+            PlayClip(HardEnemyKilledSFX, 0.2f);
+        }
         if (name == "sword_swing") {
             PlayClip(SwordSwingSFX, .03f);
         }
+        if (name == "player_hurt") {
+            PlayClip(EnemyHitSFX, 0.1f);
+            PlayClip(PlayerHurtSFX, .007f);
+        }
+        if (name == "death") {
+            PlayClip(PlayerDeathSFX, 0.3f);
+        }
+
+
+        // interaction sounds
         if (name == "lever") {
             PlayClip(LeverSFX, .1f);
         }
