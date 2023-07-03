@@ -6353,7 +6353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuMusic: {fileID: 8300000, guid: 6fc18808993d62b48ac64f6fc002c4ac, type: 3}
-  volume: 0.8
+  volume: 0.18
 --- !u!82 &4311208915567328091
 AudioSource:
   m_ObjectHideFlags: 0

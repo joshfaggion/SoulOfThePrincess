@@ -11,9 +11,9 @@ public class CutsceneController : MonoBehaviour
         string currentScene = SceneManager.GetActiveScene().name;
         
         if (currentScene == "CutSceneOne") {
-            StartCoroutine(TransitionFromVideo("Level1", 8f));
+            StartCoroutine(TransitionFromVideo("Level1", 22f));
         } else if (currentScene == "CutScene2") {
-            StartCoroutine(TransitionFromVideo("Level2", 5f));
+            StartCoroutine(TransitionFromVideo("Level2", 22f));
         }
     }
 
