@@ -9,6 +9,7 @@ TagManager:
   - Spikes
   - checkpoint
   - deathbox
+  - music
   layers:
   - Default
   - TransparentFX

@@ -37,6 +37,8 @@ public class EnemyHealth : MonoBehaviour
             }
             
             anim.SetTrigger("death");
+            StartCoroutine(Die());
+
         } else {
             audio.PlaySound("enemy_hit");
             if (gameObject.name.Contains("PatrollingEnemy")) {
@@ -47,7 +49,9 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
-    void Die() {
+    IEnumerator Die()
+    {
+        yield return new WaitForSeconds(.4f);
         Destroy(gameObject);
     }
 }
